@@ -17,13 +17,11 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      # यह स्टेप बिना gradlew फाइल के Gradle इंस्टॉल कर देगा
-      - name: Install Gradle
-        uses: gradle/actions/setup-gradle@v3
+      - name: Make gradlew executable
+        run: chmod +x gradlew
 
-      # अब हम ./gradlew के बजाय सीधे gradle कमांड का उपयोग करेंगे
       - name: Build with Gradle
-        run: gradle assembleDebug
+        run: ./gradlew assembleDebug --no-daemon
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
