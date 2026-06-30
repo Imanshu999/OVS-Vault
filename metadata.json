@@ -1,0 +1,6 @@
+{
+  "name": "OVS Vault",
+  "description": "An offline developer vault featuring AES-256 encryption, SQLite Room database, high-performance instant indexing, and an interactive SQL terminal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
