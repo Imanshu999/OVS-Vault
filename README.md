@@ -1,5 +1,5 @@
-#OVS-Vault (OVS-Vault Vault Service)
-​OVS-Vault ek highly secure aur offline-first application hai jo user ke data ko local storage par encrypt kar ke rakhta hai. Iska design "zero-knowledge" principle par based hai, jiska matlab hai ki aapka sensitive data kabhi bhi aapke device se bahar nahi jata.
+# OVS-Vault (OVS-Vault Vault Service)
+​# OVS-Vault ek highly secure aur offline-first application hai jo user ke data ko local storage par encrypt kar ke rakhta hai. Iska design "zero-knowledge" principle par based hai, jiska matlab hai ki aapka sensitive data kabhi bhi aapke device se bahar nahi jata.
 ​Features
 ​Zero-Knowledge Encryption: AES-256 GCM encryption ka istemal karke data ko locally encrypt kiya jata hai.
 ​Offline-First Architecture: App internet connection ke bina fully functional hai, jisse data privacy badhti hai.
