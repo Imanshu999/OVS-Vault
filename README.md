@@ -1,6 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+#OVS-Vault (OVS-Vault Vault Service)
+​OVS-Vault ek highly secure aur offline-first application hai jo user ke data ko local storage par encrypt kar ke rakhta hai. Iska design "zero-knowledge" principle par based hai, jiska matlab hai ki aapka sensitive data kabhi bhi aapke device se bahar nahi jata.
+​Features
+​Zero-Knowledge Encryption: AES-256 GCM encryption ka istemal karke data ko locally encrypt kiya jata hai.
+​Offline-First Architecture: App internet connection ke bina fully functional hai, jisse data privacy badhti hai.
+​Biometric Authentication: Security ko aur majboot karne ke liye biometric lock ki suvidha available hai.
+​Code & Note Management: Programmers ke liye code snippets aur generic notes ko tag ke sath save karne ki suvidha.
+​Integrated SQLite Explorer: App ke andar hi SQL queries run kar ke data ko inspect aur manage kiya ja sakta hai.
+​Technical Specifications
+​Key Derivation: PBKDF2WithHmacSHA256.
+​Encryption Cipher: AES-256 GCM NoPadding.
+​Storage: Local Room Database (SQLite).
+​Security Model: Client-side decryption only.
+​Getting Started
+​App Initialize: Pehli baar app kholne par, apna 'Master Cryptographic Password' set karein.
+​Lock/Unlock: App band hone par, database ko unlock karne ke liye master password ya biometric authentication ka use karein.
+​Manage Data: 'All Items', 'Programmer Files', ya 'Secure Keys' tabs mein ja kar apna data organize karein.
+​Disclaimer
+​Yeh application offline use ke liye hai. App ka master key local device par hi rahta hai, isliye apna password hamesha yaad rakhein, kyunki iska koi recovery mechanism nahi hai.
 
 # Run and deploy your AI Studio app
 
